@@ -153,15 +153,15 @@ Jordi Ayala - [@ASJordi](https://twitter.com/ASJordi)
 
 Project Link: [https://github.com/ASJordi/urlshortener](https://github.com/ASJordi/urlshortener)
 
-[contributors-shield]: https://img.shields.io/github/contributors/ASJordi/urlshortener-frontend.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/ASJordi/urlshortener.svg?style=for-the-badge
 [contributors-url]: https://github.com/ASJordi/urlshortener/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ASJordi/urlshortener-frontend.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/ASJordi/urlshortener.svg?style=for-the-badge
 [forks-url]: https://github.com/ASJordi/urlshortener/network/members
-[stars-shield]: https://img.shields.io/github/stars/ASJordi/urlshortener-frontend.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/ASJordi/urlshortener.svg?style=for-the-badge
 [stars-url]: https://github.com/ASJordi/urlshortener/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ASJordi/urlshortener-frontend.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/ASJordi/urlshortener.svg?style=for-the-badge
 [issues-url]: https://github.com/ASJordi/urlshortener/issues
-[license-shield]: https://img.shields.io/github/license/ASJordi/urlshortener-frontend.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/ASJordi/urlshortener.svg?style=for-the-badge
 [license-url]: https://github.com/ASJordi/urlshortener/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/ASJordi
