@@ -1,4 +1,4 @@
-const API_URL = 'https://api-url-zgau.onrender.com/api/shorten'
+const API_URL = 'http://localhost:3000/api/shorten'
 
 function copy(target) {
   let copyText = target.closest('.shorten__url').children[0].innerText
