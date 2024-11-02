@@ -3,10 +3,10 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 const axios = require("axios");
 require("dotenv").config();
-const { CustomAlphabet, customAlphabet } = require("nanoid");
+const {customAlphabet } = require("nanoid");
 
 // HEX
-let nanoid = customAlphabet("1234567890abcdef", 8);
+let nanoid = customAlphabet("1234567890abcdef", 5);
 
 mongoose.connect(
   process.env.MONGO_URI,
@@ -22,7 +22,7 @@ const URL = require("./models/Urls");
 
 const PORT = process.env.PORT || 3000;
 
-const whiteList = "https://link-shortly.netlify.app";
+const whiteList = "*";
 
 app = express();
 app.use(
@@ -38,7 +38,7 @@ app.get("/", (req, res) => {
   });
 });
 
-app.get("/urls", async (req, res, next) => {
+app.get("/urls", async (req, res) => {
   let urls = await URL.find({}).exec();
   res.json(urls);
 });
@@ -58,7 +58,7 @@ app.post("/api/shorten", async (req, res, next) => {
           },
         });
 
-        if (response.status != 404) {
+        if (response.status !== 404) {
           let newUrl;
           while (true) {
             let slug = nanoid();
